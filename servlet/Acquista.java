@@ -90,13 +90,13 @@ public class Acquista extends HttpServlet {
 					     " </ul>" +
 					      
 					    "<p> Di seguito trovi la nostra mail per qualsiasi problema tu possa riscontrare: </p>" +
-					   " <a class=button href= >" + "fattoriadesantis@gmail.com" +  "</a>" +
+					   " <a class=button href= >" + "ilparadisodeglianimali.gds@gmail.com" +  "</a>" +
 					 " </div>" +
 					"</body>" +
 					"</html> ";
 			
 					try {
-						JavaMailUtil.sendMail(email,"fattoriadesantis@gmail.com", intestazioneS, testoHtmlS);		
+						JavaMailUtil.sendMail(email,"ilparadisodeglianimali.gds@gmail.com", intestazioneS, testoHtmlS);		
 					} catch (MessagingException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
@@ -142,7 +142,7 @@ public class Acquista extends HttpServlet {
 
 		
 				try {
-					JavaMailUtil.sendMail("fattoriadesantis@gmail.com", "fattoriadesantis@gmail.com", intestazioneU, testoHtmlU);
+					JavaMailUtil.sendMail("ilparadisodeglianimali.gds@gmail.com", "ilparadisodeglianimali.gds@gmail.com", intestazioneU, testoHtmlU);
 				} catch (MessagingException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
